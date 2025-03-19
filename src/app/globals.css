@@ -24,6 +24,10 @@
   padding-left: 4rem;
 }
 
+.nav-link{
+  color: #a2cf10;
+}
+
 .page-section{
   height: 70vh;
   width: 100%;
@@ -78,4 +82,17 @@
   font-weight: bolder;
   text-align: center;
   padding: 4px;
+}
+
+
+.about-page{
+  background: #0a0a63;
+  height: 100vh;
+  width: 100%;
+}
+
+.service-page{
+  background: #a2cf10;
+  height: 100vh;
+  width: 100%;
 }
