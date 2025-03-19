@@ -6,10 +6,8 @@ export default function Navbar(){
     return(
 
         <nav className='navbar'>
-            
             <Logo/>
             <Btn/>
-
         </nav>
 
     )

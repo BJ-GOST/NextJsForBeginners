@@ -1,14 +1,15 @@
 @import "tailwindcss";
 
 .home{
-  height: 100vh;
+  min-height: 160vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  gap: 2rem;
   font-size: 2rem;
   text-align: center;
+  padding: 4rem;
 }
 
 .navbar{
@@ -21,6 +22,45 @@
   justify-content: space-between;
   padding-right: 4rem;
   padding-left: 4rem;
+}
+
+.page-section{
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #333333;
+}
+
+.page-section-head{
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: #f5f5f5 solid 1px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.section-link{
+  height: 6vh;
+  width: 7rem;
+  border-radius: 0.2rem;
+  background: #6600ff;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.6rem;
+  font-size: small;
+  cursor: pointer;
+}
+
+.section-heading{
+  font-size: medium;
+  color: #f5f5f5;
+  font-weight: lighter;
 }
 
 .logo{

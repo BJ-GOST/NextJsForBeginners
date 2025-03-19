@@ -1,11 +1,18 @@
 import Image from "next/image";
+import PageSection from "@/components/pageSection";
 
 export default function Home(){
 
   return(
 
     <main className="home">
-      <h1>Hello world this is my first NextJs app</h1>
+      <PageSection/>
+      <PageSection/>
+      <PageSection/>
+      <PageSection/>
+      <PageSection/>
+      <PageSection/>
+      <PageSection/>
     </main>
 
   )
