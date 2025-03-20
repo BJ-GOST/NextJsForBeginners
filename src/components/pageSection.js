@@ -1,7 +1,7 @@
 import SectionLink from "@/UI/sectionLinks"
 import SectionHeading from "@/UI/sectionHeading"
 
-export default function PageSection(){
+export default function PageSection({body}){
 
     return(
 
@@ -11,6 +11,8 @@ export default function PageSection(){
                 <SectionHeading/>
                 <SectionLink/>
             </div>
+
+            <p>{body}</p>
             
         </div>
 
