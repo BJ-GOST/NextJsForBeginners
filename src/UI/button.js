@@ -1,9 +1,9 @@
-export default function Btn(){
+export default function Btn({text}){
 
     return(
 
         <button className="theme-btn">
-            <span>T</span>
+            <span>{text}</span>
         </button>
         
     )

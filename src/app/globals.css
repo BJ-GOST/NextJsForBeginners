@@ -152,3 +152,31 @@
   width: 100%;
   color: #757575;
 }
+
+.open{
+  height: 80vh;
+  width: 40vw;
+  display: flex;
+  background: #333333;
+}
+
+
+.close{
+  height: 80vh;
+  width: 40vw;
+  display: none;
+  background: #333333;
+}
+
+
+.count-btn{
+  width: 6rem;
+  height: 10vh;
+  border-radius: 0.3rem;
+  background: #0a0a63;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
